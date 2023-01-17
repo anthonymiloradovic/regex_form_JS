@@ -1,0 +1,37 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#formulaire{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+#validate{
+    background-color: rgb(149, 229, 149);
+    border-radius: 8px;
+    border: 2px solid grey;
+    box-shadow: 5px black;
+}
+
+#confirm{
+    background-color: rgb(250, 250, 44);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 130px;
+    text-align: center;
+    overflow: hidden;
+}
